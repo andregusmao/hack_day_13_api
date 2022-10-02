@@ -40,6 +40,7 @@ defmodule HackDay13.MixProject do
       {:telemetry_metrics, "~> 0.6"},
       {:telemetry_poller, "~> 1.0"},
       {:jason, "~> 1.2"},
+      {:cors_plug, "~> 2.0"},
       {:plug_cowboy, "~> 2.5"}
     ]
   end
