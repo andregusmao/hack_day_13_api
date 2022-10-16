@@ -9,3 +9,11 @@
 #
 # We recommend using the bang functions (`insert!`, `update!`
 # and so on) as they will fail if something goes wrong.
+
+alias HackDay13.Persons
+
+Persons.create_person(%{
+  "firstname" => "André",
+  "surname" => "Gusmão",
+  "email" => "andre.gusmao@rcky.com.br"
+})
